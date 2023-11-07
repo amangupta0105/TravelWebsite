@@ -1,0 +1,18 @@
+.heading{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f3a93; /* Blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+.heading:hover {
+    color: #ff6b6b; /* Change color on hover */
+}
+@media (max-width: 768px) {
+    .heading {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+.reset-container{
+    display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  margin: 2%;
+}
+
+
+.reset{
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+}
+.reset:hover{
+    background-color: #c0392b; /* Button background color on hover */
+}
